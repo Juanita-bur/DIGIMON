@@ -1,0 +1,93 @@
+#fondo {
+    background-image: url("img/fondo.png");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    max-width: 100%;
+    background-position: center top;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+#logo {
+    width: 80px;
+    height: 40px;
+}
+#buscar {
+    color: white;
+    margin-top: -22px;
+}
+td img {
+    width: 40px;
+}
+#table {
+    width: 40%;
+    position: relative;
+    left: 20%;
+    background-color: aliceblue;
+    opacity: 0.85;
+    bottom: -75px;
+}
+footer {
+    position: relative;
+    overflow: hidden;
+}
+  
+#circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border: 2px solid white;
+    color: white;
+}
+  
+.btn-outline-light {
+    border-color: white;
+}
+  
+#img1 {
+    background-image: url("img/footer1.png");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 150px;
+    float: left;
+    margin: auto;
+    background-color: #0580bb;
+    z-index: 0;
+}
+  
+#img2 {
+    background-image: url("img/footer2.png");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 150px;
+    float: left;
+    margin: auto;
+    background-color: #0580bb;
+    z-index: 0;
+}
+#tarjeta{
+    background-image: url("img/fondo.png");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    max-width: 100%;
+    background-position: center top;
+    padding-bottom: 50px;
+    overflow: hidden;
+    background-color: #0580bb;
+}
+.container{
+    background-color:#0580bb;
+    max-width: 100%;
+}
+.card{
+    position: relative;
+    left: 60%;
+}
